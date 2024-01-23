@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pievienot Zinojumu</title>
+  <link rel="stylesheet" href="../css/pievienosana.css">
+</head>
+<body>
+
+<div class="form-container">
+  <form action="../php/pievienosana.php" method="post" class="form">
+    <label class="form-label">
+      Vards:
+      <input type="text" name="vards" class="form-input" required>
+    </label>
+    <br>
+    <label class="form-label">
+      Epasts:
+      <input type="email" name="epasts" class="form-input" required>
+    </label>
+    <br>
+    <label class="form-label">
+      Zinojums:
+      <textarea name="zinojums" class="form-textarea" required></textarea>
+    </label>
+    <br>
+    <button type="submit" class="form-button">Pievienot Zinojumu</button>
+  </form>
+</div>
+
+</body>
+</html>

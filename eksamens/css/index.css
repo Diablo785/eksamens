@@ -1,0 +1,111 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  h2{
+    margin-top: 55px;
+  }
+  
+  .form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 300px;
+    max-width: 300px;
+    min-height: 35px;
+    max-height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+
+  .zinojums-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 25px;
+  }
+  
+  .zinojums-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .zinojums-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 275px;
+  }
+  
+  .zinojums-item p {
+    margin: 0;
+  }
+  
+  .zinojums-author {
+    font-style: italic;
+    color: #555;
+  }
+
+  .sort-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  label[for="sort-dropdown"] {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  #sort-dropdown, #search-bar {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  #search-bar {
+    flex-grow: 1;
+  }
